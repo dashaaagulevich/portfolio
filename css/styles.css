@@ -1,0 +1,180 @@
+body {
+	padding-top: 100px;
+	color: #000!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900!important;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2rem!important;
+	letter-spacing: 0.5rem;
+}
+
+h5 {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.2rem;
+	font-size: 0.9rem!important;
+}
+
+h4 {
+	font-size: 0.9em!important;
+	letter-spacing: 0.33rem;
+
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 2.25rem!important;
+		letter-spacing: 0.75rem;
+	}
+
+	h5 {
+		letter-spacing: 0.33rem;
+		font-size: 1.125rem!important;
+	}
+
+	h4 {
+		font-size: 1.25rem!important;
+		letter-spacing: 0.5rem;
+
+	}
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	background: #e3c0b5;
+	height: 100px;
+	width: 100%;
+	color: #fff;
+	z-index: 50;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	background: url(../images/header-bg.png) no-repeat;
+	background-position: right 3% top -12px;
+}
+
+.header-brand {
+	padding-top: 16px;
+	padding-left: 6%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+}
+
+main h1 {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	background-color: #000;
+}
+
+.content h5 {
+	padding-top: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.contacts {
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.25rem;
+}
+
+.contacts h4 {
+	padding-bottom: 12px;
+}
+
+.contacts p {
+	margin-bottom: 8px;
+	font-size: 0.75rem;
+}
+
+.contacts a {
+	color: #fff;
+}
+
+.contacts a:hover {
+	color: #fff;
+}
+
+.content .work {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.25rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.work img {
+	border: 10px solid #000;
+}
+
+.work img.noborder {
+	border: none;
+}
+
+.work a {
+	color: #000;
+}
+
+.work a:hover {
+	color: #000;
+}
+
+@media (min-width: 992px) {
+	main h1 {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.content h5 {
+		padding-top: 32px;
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.contacts {
+		margin-top: 225px;
+		margin-bottom: 100px;
+		letter-spacing: 0.25rem;
+	}
+
+	.contacts h4 {
+		padding-bottom: 16px;
+	}
+
+	.contacts p {
+		margin-bottom: 12px;
+		font-size: 1rem;
+	}
+}
