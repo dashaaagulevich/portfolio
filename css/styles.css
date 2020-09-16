@@ -147,6 +147,38 @@ main h1 {
 	color: #000;
 }
 
+.work .grid {
+	padding: 10px;
+	background: #000;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+
+.work img ~ .grid {
+	margin-top: 70px;
+}
+
+.work .grid img {
+	width: 100%;
+}
+
+.width37_5 {
+	width: 37.5%;
+}
+
+.width42_5 {
+	width: 42.5%;
+}
+
+.width57_5 {
+	width: 57.5%;
+}
+
+.width77_5 {
+	width: 77.5%;
+}
+
 .work a:hover {
 	color: #000;
 }
@@ -176,5 +208,9 @@ main h1 {
 	.contacts p {
 		margin-bottom: 12px;
 		font-size: 1rem;
+	}
+
+	.work img ~ .grid {
+		margin-top: 120px;
 	}
 }
