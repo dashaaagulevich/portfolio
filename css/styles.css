@@ -163,6 +163,24 @@ main h1 {
 	width: 100%;
 }
 
+.inst_1st_row img, .inst_row img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.inst_1st_row img {
+	width: 15.5%;
+}
+
+.inst_row img {
+	margin-top: 15px;
+	width: 20.5%;
+}
+
+.width20_5 {
+	width: 20.5%;
+}
+
 .width37_5 {
 	width: 37.5%;
 }
